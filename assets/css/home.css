@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(14, 0, 19);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.header{
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.content-grid{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 70px;
+  margin-left: 150px;
+  margin-right: 100px;
+}
+
+.navigation{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 90px;
+}
+
+.nav-spacing{
+    padding-bottom: 5px;
+}
+
+.about-nav{
+    color: rgb(255, 115, 0);
+}
+
+.projects-nav{
+    color: rgb(255, 208, 0);
+}
+
+.resume-nav{
+    color: rgb(33, 194, 153);
+}
+
+.contact-nav{
+    color: rgb(245, 142, 194);
+}
+
+.headshot{
+   width: 400px;
+   border-radius: 10px;
+}

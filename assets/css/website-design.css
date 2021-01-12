@@ -1,0 +1,133 @@
+body {
+    background-color: rgb(14, 0, 19);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.nav{
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.nav-color{
+    color: white;
+}
+.nav-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.amy-size{
+    font-size: 32px;
+}
+
+.header{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 45px;
+    color: rgb(255, 208, 0);
+    text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  width: 15%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+  display: block;
+  width: 300px;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+.active {
+  background-color: rgb(255, 208, 0);
+  text-shadow: 1px 1px white;
+}
+
+.graphic-des{
+    color: rgb(255, 115, 0);
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.website-des{
+    color: rgb(33, 194, 153);
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.program-des{
+    color:rgb(245, 142, 194);
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.framework-des{
+    color: rgb(0, 119, 255);
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.data-des{
+    color: rgb(151, 92, 245);
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.ar-des{
+    color: rgb(245, 83, 83);
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.content-grid{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 70px;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.image{
+    width: 600px;
+}
+
+.image-small{
+    width: 250px;
+}
+
+.logo{
+    width: 400px;
+    border: 1px solid #e855f5;
+    margin-left: 100px;
+}
+
+.about-2{
+    margin-top: -70px;
+    width: 600px;
+}
+
+.color-pallette{
+    width: 250px;
+    margin-top: -60px;
+}
+
+.music{
+    width: 300px;
+    margin-left: 150px
+}
