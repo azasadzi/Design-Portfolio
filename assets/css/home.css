@@ -52,3 +52,33 @@ a:link {
    width: 380px;
    border-radius: 10px;
 }
+
+/*Tablet*/
+@media (max-width: 991px) {
+
+.navigation{
+    font-size: 60px;
+}
+
+.headshot{
+    width: 280px;
+    border-radius: 10px;
+}
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+.content-grid{
+  grid-template-columns: 1fr;
+}
+
+.navigation{
+    font-size: 60px;
+}
+.headshot{
+   width: 280px;
+   border-radius: 10px;
+}
+
+}
