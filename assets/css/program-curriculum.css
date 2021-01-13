@@ -71,7 +71,7 @@ li a:hover {
 }
 
 .program-des{
-    color:rgb(245, 142, 194);
+    color: rgb(245, 142, 194);
     padding-bottom: 5px;
     font-size: 20px;
 }
@@ -97,7 +97,7 @@ li a:hover {
 .content-grid{
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 600px 300px;
   grid-gap: 70px;
   margin-left: 300px;
   margin-right: 100px;
@@ -110,4 +110,8 @@ li a:hover {
 
 .image-small{
     width: 250px;
+}
+
+.h3-size{
+    font-size: 18px;
 }

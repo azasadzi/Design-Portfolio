@@ -93,3 +93,20 @@ li a:hover {
     padding-bottom: 5px;
     font-size: 20px;
 }
+
+.content-grid{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 600px 300px;
+  grid-gap: 70px;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.image{
+    width: 600px;
+}
+
+.h3-size{
+    font-size: 18px;
+}

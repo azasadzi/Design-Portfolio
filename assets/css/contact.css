@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(14, 0, 19);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.nav{
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.nav-color{
+    color: white;
+}
+.nav-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.amy-size{
+    font-size: 32px;
+}
+
+.header{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 45px;
+    color: rgb(245, 142, 194);
+    text-align: center;
+}
+
+.content-grid{
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 70px;
+  margin-left: 100px;;
+  margin-right: 100px;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.label{
+    margin-bottom: -100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+.content{
+    font-size: 20px;
+    margin-top: 40px;
+    color: white;
+}
+
+.email-label{
+    color: rgb(255, 208, 0);
+    margin-bottom: -100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+.phone-label{
+    color: rgb(255, 115, 0);
+    margin-bottom: -100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+.linkedin-label{
+    color: rgb(0, 119, 255);
+    margin-bottom: -100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+.handshake-label{
+    color: rgb(33, 194, 153);
+    margin-bottom: -100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+.github-label{
+    color: rgb(151, 92, 245);
+    margin-bottom: -100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}
+
+.youtube-label{
+    color: rgb(245, 83, 83);
+    margin-bottom: -100px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 40px;
+}

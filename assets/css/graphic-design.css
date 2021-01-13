@@ -97,15 +97,20 @@ li a:hover {
 .content-grid{
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 600px 300px;
   grid-gap: 70px;
   margin-left: 300px;
   margin-right: 100px;
 
 }
 
+.image{
+    width: 600px;
+}
+
 .cu-img{
     width: 500px;
+    margin-left: 50px;
 }
 
 .h3-size{

@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(14, 0, 19);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.nav{
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-top: 13px;
+}
+
+.nav-color{
+    color: white;
+}
+.nav-font{
+    font-family: 'Roboto', sans-serif;
+}
+
+.amy-size{
+    font-size: 32px;
+}
+
+.header{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 45px;
+    color: rgb(33, 194, 153);
+    text-align: center;
+}
+
+.resume{
+    width:1000px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
