@@ -116,3 +116,85 @@ li a:hover {
 .h3-size{
     font-size: 18px;
 }
+
+/*Tablet*/
+@media (max-width: 991px) {
+ul {
+  width: 25%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.content-grid{
+  grid-template-columns: 500px;
+  grid-gap: 70px;
+  margin-left: 230px;
+  margin-right: 100px;
+}
+
+.image{
+    width: 500px;
+    margin-bottom: -50px;
+}
+
+.cu-img{
+    width: 500px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+}
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+ul {
+  width: 25%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.graphic-des{
+    font-size: 15px;
+}
+
+.website-des{
+    font-size: 15px;
+}
+
+.program-des{
+    font-size: 15px;
+}
+
+.framework-des{
+    font-size: 15px;
+}
+.data-des{
+    font-size: 15px;
+}
+
+.ar-des{
+    font-size: 15px;
+}
+.content-grid{
+  grid-template-columns: 300px;
+  grid-gap: 70px;
+  margin-left: 170px;
+  margin-right: 100px;
+}
+
+.image{
+    width: 300px;
+    margin-bottom: -50px;
+}
+
+.cu-img{
+    width: 300px;
+    margin-left: 0px;
+    margin-bottom: -50px;
+}
+
+.h3-size{
+    font-size: 15px;
+}
+}

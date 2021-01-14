@@ -115,3 +115,25 @@ li a:hover {
 .h3-size{
     font-size: 18px;
 }
+
+/*Tablet*/
+@media (max-width: 991px) {
+ul {
+  width: 25%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.content-grid{
+  grid-template-columns: 500px;
+  grid-gap: 70px;
+  margin-left: 230px;
+  margin-right: 100px;
+}
+
+.image{
+    width: 500px;
+    margin-bottom: -50px;
+}
+}
