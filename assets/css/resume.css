@@ -38,3 +38,16 @@ a:link {
     margin-left: auto;
     margin-right: auto;
 }
+
+/*Tablet*/
+@media (max-width: 991px) {
+.resume{
+    width:700px;
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+.resume{
+    width:400px;
+}
+}
