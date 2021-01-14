@@ -135,3 +135,115 @@ li a:hover {
     width: 300px;
     margin-left: 150px
 }
+
+/*Tablet*/
+@media (max-width: 991px) {
+ul {
+  width: 25%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.content-grid{
+  grid-template-columns: 500px;
+  grid-gap: 70px;
+  margin-left: 250px;
+  margin-right: 100px;
+}
+
+.image{
+    width: 500px;
+    margin-bottom: -50px;
+}
+
+.logo{
+    width: 400px;
+    border: 1px solid #e855f5;
+    margin-left: 50px;
+}
+
+.color-pallette{
+    width: 250px;
+    margin-top: -150px;
+    margin-left: 125px;
+}
+
+.about-2{
+    width: 0px;
+}
+
+.music{
+    width: 300px;
+    margin-left: 100px;
+    margin-bottom: -50px;
+}
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+ul {
+  width: 25%;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.graphic-des{
+    font-size: 15px;
+}
+
+.website-des{
+    font-size: 15px;
+}
+
+.program-des{
+    font-size: 15px;
+}
+
+.framework-des{
+    font-size: 15px;
+}
+.data-des{
+    font-size: 15px;
+}
+
+.ar-des{
+    font-size: 15px;
+}
+
+.content-grid{
+  grid-template-columns: 400px;
+  grid-gap: 70px;
+  margin-left: 170px;
+  margin-right: 100px;
+}
+
+.image{
+    width: 400px;
+    margin-bottom: -50px;
+}
+
+.logo{
+    width: 300px;
+    border: 1px solid #e855f5;
+    margin-left: 50px;
+}
+
+.color-pallette{
+    width: 250px;
+    margin-top: -150px;
+    margin-left: 80px;
+}
+
+.about-2{
+    width: 0px;
+}
+
+.music{
+    width: 300px;
+    margin-left: 50px;
+    margin-bottom: -50px;
+}
+
+}
