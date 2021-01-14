@@ -37,9 +37,9 @@ a:link {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 70px;
-  margin-left: 100px;;
-  margin-right: 100px;
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 a:link {
@@ -99,4 +99,55 @@ a:link {
     margin-bottom: -100px;
     font-family: 'Archivo Black', sans-serif;
     font-size: 40px;
+}
+
+/*Tablet*/
+@media (max-width: 991px) {
+.content-grid{
+  grid-gap: 30px;
+  margin-left: 40px;
+}
+
+.content{
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.email-label{
+    font-size: 35px;
+}
+
+.phone-label{
+    font-size: 35px;
+}
+
+.linkedin-label{
+    font-size: 35px;
+}
+
+.handshake-label{
+    font-size: 35px;
+}
+
+.github-label{
+    font-size: 35px;
+}
+
+.youtube-label{
+    font-size: 35px;
+}
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+
+.content-grid{
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+}
+
+content{
+    font-size: 20px;
+    margin-right: 20px;
+}
 }
